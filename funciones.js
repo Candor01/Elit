@@ -6,13 +6,8 @@ const apikey='fc5a0196234f38d93f6ad2885261e5fb';
     	var i;
     	var a={};
     	var n;
-//a=Id();
-
 
 async function Id(){
-    /*movies = JSON.parse(this.response);
-    const id=movies.results[0].id;*/
-    
 await fetch (pelicula)
  .then((res)=>res.json())
  .then((data=> i=data));
@@ -27,29 +22,15 @@ document.getElementById('resultado').innerHTML = await Id();
 a[0]=await Id();
 
 });
-console.log(a);
-    //console.log(id_1);
+function consulta(){
+  
+}
+function Top100(lista){
+  lista.foreach(elemento=>){
 
-       /* request.onload = function () {
-  // Begin accessing JSON data here
-var data = JSON.parse(this.response)
-  if (request.status >= 200 && request.status < 400) {
-    data.forEach((movie) => {
-      const card = document.createElement('div')
-      card.setAttribute('class', 'card')
+  }
 
-      const h1 = document.createElement('h1')
-      h1.textContent = movie.title
-
-      const p = document.createElement('p')
-      movie.description = movie.description.substring(0, 300)
-      p.textContent = `${movie.description}...`
-
-      container.appendChild(card)
-      card.appendChild(h1)
-      card.appendChild(p)
-    })
-  }*/
+}
    
 
  

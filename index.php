@@ -8,6 +8,7 @@
     <script type="funciones.js"></script>
   </head>
   <body>
+   
     <header>
       <dir class="container">
         <h1>Header</h1>
@@ -18,7 +19,9 @@
         <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-6" >
       <h3>TOP 100</h3>
+      <?php include 'PHP/conexion.php';?>
         <p>
+
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
