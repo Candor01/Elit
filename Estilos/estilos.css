@@ -50,6 +50,16 @@ left: 35%;
   opacity: 0;
   font-family: 'Baumans', bold;
 
+}
+.nombre_2 {
+  color: white;
+  font-size:20px;
+  position: absolute;
+  top: 67%;
+  left: 5%;
+  opacity: 0;
+  font-family: 'Baumans', bold;
+
  
 }
 .parent {
@@ -89,7 +99,7 @@ margin-right: auto;
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.3;
+  opacity: 0.7;
  /* transition: .5s ease;*/
   background: linear-gradient(0, black,gray );
 }
@@ -98,6 +108,9 @@ margin-right: auto;
 	opacity: 1;
 }
 .parent:hover .nombre_1{
+  opacity: 1;
+}
+.parent:hover .nombre_2{
   opacity: 1;
 }
 .parent:hover .child:before, .parent:focus .child:before {
