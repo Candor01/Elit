@@ -1,0 +1,115 @@
+*{
+    padding:0px;
+    margin: 0px;
+
+}
+
+header{
+	background: #2c3e50;
+	color:#fff;
+    font-size:50px;
+  font-family: 'Baumans', bold;
+}
+.main{
+	background: #f2f2f2;
+}
+
+.color1{
+	background: #34495e;
+	color: #fff;
+}
+.top{
+	display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.imagen {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.nombre {
+  color: white;
+  font-size:100px;
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  opacity: 0;
+  font-family: 'Baumans', bold;
+
+ 
+}
+.nombre_1 {
+  justify-content: center;
+  color: white;
+  font-size:100px;
+  position: absolute;
+  top: 40%;
+left: 35%;
+  opacity: 0;
+  font-family: 'Baumans', bold;
+
+ 
+}
+.parent {
+
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+	cursor: pointer;
+}
+.child {
+   display: block;
+margin-left: auto;
+margin-right: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    -o-transition: all 3s;
+    transition: all 3s;
+
+}
+
+
+.parent:hover .child, .parent:focus .child  {
+    -ms-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    
+}
+.parent:hover .overlay{
+	position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.3;
+ /* transition: .5s ease;*/
+  background: linear-gradient(0, black,gray );
+}
+
+.parent:hover .nombre{
+	opacity: 1;
+}
+.parent:hover .nombre_1{
+  opacity: 1;
+}
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+
+aside{
+	background: #c0392b;
+	color:#fff;
+}
+footer{
+	background: #16a085;
+	color:#fff;
+}
