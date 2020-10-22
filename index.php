@@ -42,10 +42,7 @@ $data=json_decode($file_1,true);
       echo $image;
       
        }
- /*
-      <div class="item">
-        <img src="2067.jpg" alt="New york" style="width:100%;">
-      </div>*/
+ 
       ?>
       
    
@@ -54,7 +51,7 @@ $data=json_decode($file_1,true);
   </div>
         
 
-<div class="overlay">
+<a href="/Elit/top100.php"><div class="overlay">
     
   </div>
   <div class="nombre">TOP 100</div>
@@ -63,8 +60,6 @@ $data=json_decode($file_1,true);
 <div class="row">
     <div class=" parent  col-xs-12 col-sm-12 col-md-6" id="section-2">
        <div id="myCarousel" class="child carousel slide" data-ride="carousel">
-    
-    <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
         <img src="It.jpg" alt="Chicago" style="width:100%;">
@@ -91,9 +86,9 @@ $data=json_decode($file_2,true);
     </div>
 
   </div>
-        
+     </a>   
 
-<div class="overlay">
+<a href="/Elit/busqueda.php"><div class="overlay">
     
   </div>
     <i class="nombre_1 fas fa-search"></i>
@@ -128,9 +123,9 @@ $data=json_decode($file_1,true);
     </div>
 
   </div>
-        
+      </a>  
 
-<div class="overlay">
+<a href="/Elit/busqueda.php"><div class="overlay">
     
   </div>
   <i class="nombre_1 fas fa-search"></i>
@@ -167,9 +162,9 @@ $data=json_decode($file_1,true);
     </div>
 
   </div>
-        
+  </a>  
 
-<div class="overlay">
+<a href="/Elit/busqueda.php"><div class="overlay">
     
   </div>
   <i class="nombre_1 fas fa-search"></i>
@@ -204,7 +199,7 @@ $data=json_decode($file_1,true);
     </div>
 
   </div>
-        
+   </a>     
 
 <div class="overlay">
     
