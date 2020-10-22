@@ -3,12 +3,16 @@
     margin: 0px;
 
 }
+body {
 
+  background-color:#343a40 !important;
+}
 header{
-	background: #2c3e50;
+	background: #343a40;
 	color:#fff;
     font-size:50px;
   font-family: 'Baumans', bold;
+  margin-bottom: 20px;
 }
 .main{
 	background: #f2f2f2;
@@ -82,16 +86,29 @@ left: 35%;
   left: 5%;
   opacity: 0;
   font-family: 'Baumans', bold;
+}
+.nombre_3 {
+  color: white;
+  font-size:16px;
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  opacity: 0;
+  font-family: 'Baumans', bold;
 
  
 }
 .parent {
-
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
     overflow: hidden;
     position: relative;
     float: left;
-    display: inline-block;
-	cursor: pointer;
+   /* display: inline-block;*/
+  cursor: pointer;
+   background-color:#343a40 !important;
 }
 .child {
    display: block;
@@ -134,6 +151,9 @@ margin-right: auto;
   opacity: 1;
 }
 .parent:hover .nombre_2{
+  opacity: 1;
+}
+.parent:hover .nombre_3{
   opacity: 1;
 }
 .parent:hover .child:before, .parent:focus .child:before {

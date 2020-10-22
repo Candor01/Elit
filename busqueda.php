@@ -16,11 +16,15 @@
     <header>
 <div class="container">
  <div class="row ">
+  <div class="col-xs-12 col-sm-12 col-md-8">
+   <a href="/Elit/index.php"><h1>ELIT</h1></a></div>
+    <div class="col-xs-12 col-sm-12 col-md-4">
  <form  method="POST">
- <a href="/Elit/index.php"><h1>ELIT</h1></a>
+
 <input type="text" id="keywords" name="keywords" size="30" maxlength="30" style="color: black">
 <input type="submit" name="search" id="search" value="Buscar">
 </form>
+</div>
 </div>
 </div>
  
@@ -53,7 +57,7 @@ $data=json_decode($file_1,true);
 
       $genero=$row['genres'];
       $info='<div class="overlay"></div>
-    <div class="nombre_2">'.$row['title'].'<br>'.$row['genres'].'<br><p>Rating: '.$row['rating'].'<p/></div>
+    <div class="nombre_3">'.$row['title'].'<br>'.$row['genres'].'<br><p>Rating: '.$row['rating'].'<p/></div>
   
            </div>';
 
